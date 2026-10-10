@@ -1541,6 +1541,7 @@ def workbook(out, res, summ, notes, splits, defs, power_tab, cells, f1, t10, f2,
                 ("Appendix 4", "Placebo: hazards other than wildfire"),
                 ("Appendix 5", "Baseline without Texas and Washington"),
                 ("Appendix 6", "Check of the wildfire damage data"),
+                ("Appendix 7", "Where the term at k = +2 of Figure 2 comes from, with Figure 4"),
                 ("Figure 1", "Placebo tests"), ("Figure 2", "Dynamic effect"),
                 ("Figure 3", "Checks on the dynamic effect")]
     simple_table(sh, ["Sheet", "Content"], contents, all_left=True)
@@ -2061,6 +2062,13 @@ def main():
         t10 = pd.read_csv(out / "figure1_placebo_cells.csv")
     draw_figure1(out, f1)
 
+    print("appendix 7")
+    panel = add_appendix7(panel, fires, master)
+    dating = record_dating(fires)
+    pers = damage_persistence(panel)
+    a7 = appendix7_checks(panel)
+    draw_appendix7(a7, out / "figure4_appendix7.png")
+
     res.to_csv(out / "regressions.csv", index=False)
     summ.to_csv(out / "summary.csv", index=False)
     notes.to_csv(out / "damage_notes.csv", index=False)
@@ -2077,12 +2085,290 @@ def main():
     low.to_csv(out / "damage_not_recorded.csv", index=False)
     rep.to_csv(out / "repeated_wildfire_records.csv", index=False)
     corr.to_csv(out / "wildfire_damage_corrected.csv", index=False)
+    dating.to_csv(out / "appendix7_record_dating.csv", index=False)
+    pers.to_csv(out / "appendix7_persistence.csv", index=False)
+    a7.to_csv(out / "appendix7_checks.csv", index=False)
 
     wb = workbook(out, res, summ, notes, splits, defs, power_tab, cells, f1, t10, f2, ant, f2c, chk, mx,
                   top, changed, low, corr)
+    appendix7_sheet(wb, dating, pers, a7, out)
     wb.save(out / "tables_and_figures.xlsx")
     print(f"done: {out / 'tables_and_figures.xlsx'}")
 
+
+# ----------------------------------------------------------------------------- appendix 7
+
+A7_DAMAGE = [(DAMAGE, "Ln wildfire damage (Figure 2)"),
+             (f"{DAMAGE}_h2", "Fires beginning July to December"),
+             (f"{DAMAGE}_h1", "Fires beginning January to June"),
+             (f"{DAMAGE}_shift", "November and December fires dated to the year after"),
+             ("lrshock_fire4", "Fire-line loss ratio of the state market")]
+A7_RISK = "Exposure × the state's average damage"
+A7_MEASURE_NAME = {"lndmg_fire": "Ln wildfire damage", "dmgany_fire": "Any damage"}
+
+
+def record_dating(fires):
+    """Where in the year the wildfire damage falls. Storm Events dates a record by the month in
+    which the fire begins, so a fire burning across a year end would carry its damage in the
+    earlier year; no record does. What the dating cannot separate is the year in which a fire is
+    paid and complained about, and most of the damage arrives too late in the year for that to
+    be the year of the fire itself."""
+    f = fires.copy()
+    f["dmg"] = f["DAMAGE_PROPERTY"].map(dollars) + f["DAMAGE_CROPS"].map(dollars)
+    begin, end = f["BEGIN_YEARMONTH"].astype(int), f["END_YEARMONTH"].astype(int)
+    month = begin % 100
+    total = f["dmg"].sum()
+    rows = [{"item": "Wildfire records, 2013-2024", "value": float(len(f)), "share": False, "note": ""},
+            {"item": "Records carrying damage", "value": float((f["dmg"] > 0).sum()), "share": False, "note": ""},
+            {"item": "Records whose end year differs from the begin year", "share": False,
+             "value": float((begin // 100 != end // 100).sum()),
+             "note": "a record dated to the wrong year would have to be one of these"}]
+    for lo, hi, label in [(1, 6, "January to June"), (7, 10, "July to October"),
+                          (11, 12, "November and December")]:
+        sel = month.between(lo, hi)
+        rows.append({"item": f"Share of the damage, fires beginning {label}", "share": True,
+                     "value": float(f.loc[sel, "dmg"].sum() / total),
+                     "note": f"{int((f.loc[sel, 'dmg'] > 0).sum())} records carry damage"})
+    big = f.nlargest(2, "dmg")
+    rows.append({"item": "Share of the damage, the two largest records", "share": True,
+                 "value": float(big["dmg"].sum() / total),
+                 "note": "; ".join(f"{r['STATE'].title()} {r['BEGIN_DATE_TIME'][:9]}" for _, r in big.iterrows())})
+    return pd.DataFrame(rows)
+
+
+def timing_series(panel, fires, cpi):
+    """Wildfire damage split by the half of the year in which the fire begins, and the series
+    that moves a fire beginning in November or December into the following year. Deflated and
+    logged like the damage in the panel."""
+    f = fires.copy()
+    f["dmg"] = f["DAMAGE_PROPERTY"].map(dollars) + f["DAMAGE_CROPS"].map(dollars)
+    names = panel.drop_duplicates("state_postal").set_index("state_name_uc")["state_postal"]
+    f["state_postal"] = f["STATE"].map(names)
+    f = f.dropna(subset=["state_postal"])
+    month = f["BEGIN_YEARMONTH"].astype(int) % 100
+    f["year"] = f["YEAR"].astype(int)
+    f["year_shift"] = f["year"] + (month >= 11).astype(int)
+    out = panel.drop_duplicates(["state_postal", "year"])[["state_postal", "year"]].copy()
+    for stem, sel in [("h1", month <= 6), ("h2", month >= 7)]:
+        g = f[sel].groupby(["state_postal", "year"], as_index=False)["dmg"].sum()
+        out = out.merge(g.rename(columns={"dmg": f"nom_{stem}"}), on=["state_postal", "year"], how="left")
+    g = f.groupby(["state_postal", "year_shift"], as_index=False)["dmg"].sum()
+    out = out.merge(g.rename(columns={"year_shift": "year", "dmg": "nom_shift"}),
+                    on=["state_postal", "year"], how="left")
+    factor = out["year"].map(cpi[2024] / cpi)
+    for stem in ["h1", "h2", "shift"]:
+        # a state-year with no fire in that half of the year has no row to merge, and no fire is no damage
+        out[f"{DAMAGE}_{stem}"] = np.log1p(out[f"nom_{stem}"].fillna(0.0) * factor / 1e6)
+    return out[["state_postal", "year"] + [f"{DAMAGE}_{s}" for s in ["h1", "h2", "shift"]]]
+
+
+def loss_ratio_shock(master):
+    """A shock built from what the fire-line market paid rather than from the recorded damage:
+    the state's fire-line loss ratio in the year, less its own loss ratio over the whole period.
+    Appendix 6 shows the damage field understates the fires that destroyed houses and carries
+    the federal cost of fighting remote timber fires, so the loss ratio is the closer measure of
+    a bad fire year. The industry file has market rows for 2014-2023 only."""
+    fl = master[(master["territory"] == 0) & (master["lg_fire4"] == 1)]
+    agg = (fl.assign(pe=fl["premiums_earned"].fillna(0).clip(lower=0), li=fl["losses_incurred"].fillna(0))
+           .groupby(["state_postal", "year"], as_index=False)[["pe", "li"]].sum())
+    agg = agg[(agg["pe"] > 0) & agg["year"].between(FIRST_YEAR, LAST_MS_YEAR)].copy()
+    # states differ in the level of their loss ratios; centring on each state's own ratio makes the
+    # shock comparable across them, and insurer x state effects absorb what the centring takes out
+    whole = agg.groupby("state_postal")[["pe", "li"]].transform("sum")
+    agg["lrshock_fire4"] = agg["li"] / agg["pe"] - whole["li"] / whole["pe"]
+    return agg[["state_postal", "year", "lrshock_fire4"]]
+
+
+def add_appendix7(panel, fires, master):
+    """The alternative damage series of Appendix 7, and the state's average damage over the
+    sample. State x year effects absorb that average, but not its product with the insurer's
+    exposure, which is what every term of Figure 2 is built from: if the terms after the
+    violations only pick up exposed insurers sitting in fire-prone states, the product takes
+    them out."""
+    cpi = master.groupby("year")["CPI"].first()
+    n0 = len(panel)
+    panel = panel.merge(timing_series(panel, fires, cpi), on=["state_postal", "year"], how="left")
+    panel = panel.merge(loss_ratio_shock(master), on=["state_postal", "year"], how="left")
+    sy = panel[panel["year"].between(FIRST_YEAR, LAST_MS_YEAR)].drop_duplicates(["state_postal", "year"])
+    panel = panel.merge(sy.groupby("state_postal")[DAMAGE].mean().rename("risk_fire").reset_index(),
+                        on="state_postal", how="left")
+    panel["x_risk"] = panel[EXPO] * panel["risk_fire"]
+    panel["x_risk_base"] = panel[f"{EXPO}_base"] * panel["risk_fire"]
+    if len(panel) != n0:
+        raise ValueError(f"a merge changed the number of rows: {n0} -> {len(panel)}")
+    return panel
+
+
+def damage_persistence(panel, window=3):
+    """Whether the terms after the violations carry anything of their own. Wildfire damage is
+    persistent within a state, so a term at k = +2 can load on the damage at k = 0 through that
+    persistence alone. Reports the autocorrelation of the state-year series, how far each term
+    of Figure 2 is correlated with the term at k = 0, and each term estimated on its own on the
+    sample of the joint regression, so that the two are comparable."""
+    sy = panel.drop_duplicates(["state_postal", "year"])[["state_postal", "year", DAMAGE, "dmgany_fire"]]
+    sy = sy.sort_values(["state_postal", "year"])
+    rows = []
+    for col in [DAMAGE, "dmgany_fire"]:
+        for lag in range(1, window + 1):
+            s = sy.assign(other=sy.groupby("state_postal")[col].shift(lag))
+            s = s[s[[col, "other"]].notna().all(axis=1)]
+            rows.append({"part": "autocorrelation of the state-year series", "measure": col, "k": lag,
+                         "b": float(s[col].corr(s["other"])), "se": np.nan, "p": np.nan, "N": len(s)})
+    df = with_leads(panel, DAMAGE, window)
+    ks = list(range(-window, window + 1))
+    xs = [tag(k) for k in ks]
+    for k in ks:
+        df[tag(k)] = df[EXPO] * df[f"dmg_{tag(k)}"]
+    for dv in FIG_DVS:
+        # every fit below uses the sample of the joint regression, so the two columns compare like with like
+        d = df[df[[dv, EXPO] + xs].notna().all(axis=1)]
+        for k in ks:
+            rows.append({"part": "correlation with the term at k = 0", "measure": dv, "k": k,
+                         "b": float(d[tag(k)].corr(d[tag(0)])), "se": np.nan, "p": np.nan, "N": len(d)})
+        joint = feols(d, dv, xs + [EXPO], FE["F7"])
+        b, se, p = joint.coef(), joint.se(), joint.pvalue()
+        for k in ks:
+            rows.append({"part": "all terms in one regression", "measure": dv, "k": k, "b": float(b[tag(k)]),
+                         "se": float(se[tag(k)]), "p": float(p[tag(k)]), "N": joint._N})
+        for k in ks:
+            m = feols(d, dv, [tag(k), EXPO], FE["F7"])
+            b1, se1, p1 = m.coef(), m.se(), m.pvalue()
+            rows.append({"part": "one term at a time", "measure": dv, "k": k, "b": float(b1[tag(k)]),
+                         "se": float(se1[tag(k)]), "p": float(p1[tag(k)]), "N": m._N})
+    return pd.DataFrame(rows)
+
+
+def appendix7_checks(panel):
+    """Figure 2 again with each alternative damage series, and with exposure x the state's
+    average damage added to the series of Figure 2 itself."""
+    out = []
+    for damage, label in A7_DAMAGE:
+        for w in (3, 2):
+            for d in ("current", "base"):
+                for dv in FIG_DVS:
+                    out.append(dynamic(panel, dv, w, d, "F7", damage)
+                               .assign(check="damage measure", variant=label, damage=damage, controls="none"))
+    for w in (3, 2):
+        for d in ("current", "base"):
+            # the control has to be built on the same exposure the design uses, or it absorbs the wrong thing
+            ctrl = ("x_risk",) if d == "current" else ("x_risk_base",)
+            for dv in FIG_DVS:
+                out.append(dynamic(panel, dv, w, d, "F7", DAMAGE, ctrl)
+                           .assign(check="long-run risk", variant=A7_RISK, damage=DAMAGE, controls=ctrl[0]))
+    return pd.concat(out, ignore_index=True)
+
+
+def draw_appendix7(chk, path):
+    """t statistics of the k = 0 and k = +2 terms across the checks of Appendix 7."""
+    g = chk[(chk["window"] == 3) & (chk["design"] == "current") & chk["k"].isin([0, 2])].copy()
+    g["t"] = g["b"] / g["se"]
+    items = []
+    for check, title in [("damage measure", "Damage measure"), ("long-run risk", "Added control")]:
+        items.append((title, None))
+        items += [(v, check) for v in g.loc[g["check"] == check, "variant"].drop_duplicates()]
+    ypos = np.arange(len(items))[::-1]
+    fig, axes = plt.subplots(1, 3, figsize=(13, 0.4 * len(items) + 2.0), sharey=True)
+    for j, dv in enumerate(FIG_DVS):
+        ax = axes[j]
+        for k, color, mk in [(0, BLUE, "o"), (2, RED, "s")]:
+            pts = [(y, g[(g["check"] == c) & (g["variant"] == v) & (g["dv"] == dv) & (g["k"] == k)]["t"].iloc[0])
+                   for y, (v, c) in zip(ypos, items) if c is not None]
+            ax.scatter([t for _, t in pts], [y for y, _ in pts], color=color, marker=mk, s=22, zorder=3,
+                       label="k = 0 (damage in t)" if k == 0 else "k = +2 (damage in t+2)")
+        for x in (-1.96, 1.96):
+            ax.axvline(x, color="0.6", lw=0.8, ls="--")
+        ax.axvline(0, color="0.35", lw=0.8)
+        for y, (_, c) in zip(ypos, items):
+            if c is None:
+                ax.axhline(y, color="0.92", lw=7, zorder=0)
+        ax.set_title(DV_LABEL[dv], fontsize=10)
+        ax.set_xlabel("t statistic")
+        ax.spines[["top", "right"]].set_visible(False)
+    axes[0].set_yticks(ypos)
+    axes[0].set_yticklabels([lab for lab, _ in items], fontsize=8)
+    for tick, (_, c) in zip(axes[0].get_yticklabels(), items):
+        if c is None:
+            tick.set_fontweight("bold")
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, labels, loc="upper center", ncol=2, frameon=False, fontsize=9, bbox_to_anchor=(0.5, 0.885))
+    fig.suptitle("Figure 4  Where the term at k = +2 of Figure 2 comes from: t statistics at k = 0 and k = +2\n"
+                 "window of plus or minus 3 years, exposure in year t; dashed lines at ±1.96", fontsize=11)
+    fig.tight_layout(rect=(0, 0, 1, 0.84))
+    fig.savefig(path, dpi=200)
+    plt.close(fig)
+
+
+def a7_rows(chk, check):
+    """The k = 0 and k = +2 terms of each variant, beside how often each is significant over the
+    twelve panels of Figure 2."""
+    g = chk[chk["check"] == check]
+    rows = []
+    for v in g["variant"].drop_duplicates():
+        sub = g[g["variant"] == v]
+        main = sub[(sub["window"] == 3) & (sub["design"] == "current") & (sub["dv"] == "count_f1")]
+        cells = []
+        for k in (0, 2):
+            r = main[main["k"] == k].iloc[0]
+            s = sub[sub["k"] == k]
+            cells += [f"{r['b']:.4f}{star(r['p'])} ({r['se']:.4f})", f"{int((s['p'] < 0.05).sum())} / {len(s)}"]
+        rows.append([v] + cells + [f"{int(main['N'].iloc[0]):,}"])
+    return rows
+
+
+def appendix7_sheet(wb, dating, pers, chk, out):
+    """Appendix 7: what the term at k = +2 of Figure 2 is made of."""
+    sh = Sheet(wb, "Appendix 7", 5, label_width=48, col_width=18)
+    sh.title("Appendix 7", "Where the term at k = +2 of Figure 2 comes from",
+             "Three things could put a coefficient on damage that arrives after the violations: the dating "
+             "of the damage, the persistence of wildfire damage within a state, and the sorting of exposed "
+             "insurers into fire-prone states. The panels take them in that order.")
+
+    sh.panel_title("Panel A. The dating of the damage")
+    simple_table(sh, ["NOAA Storm Events wildfire records", "Value"],
+                 [[r["item"], f"{r['value']:.3f}" if r["share"] else f"{int(r['value']):,}"]
+                  for _, r in dating.iterrows()], height=16)
+
+    sh.panel_title("Panel B. The persistence of wildfire damage")
+    ac = pers[pers["part"] == "autocorrelation of the state-year series"]
+    simple_table(sh, ["Autocorrelation within the state", "Lag 1", "Lag 2", "Lag 3"],
+                 [[A7_MEASURE_NAME[m]] + [f"{ac[(ac['measure'] == m) & (ac['k'] == k)]['b'].iloc[0]:.3f}"
+                                          for k in (1, 2, 3)]
+                  for m in ac["measure"].drop_duplicates()], height=16)
+    cor, one, joint = (pers[pers["part"] == part] for part in
+                       ("correlation with the term at k = 0", "one term at a time", "all terms in one regression"))
+
+    def cell(t, k, fmt):
+        r = t[(t["measure"] == "count_f1") & (t["k"] == k)].iloc[0]
+        return f"{r['b']:{fmt}}" + (star(r["p"]) if pd.notna(r["p"]) else "")
+
+    simple_table(sh, ["Exposure × damage(t+k), number of violations", "Correlation with k = 0",
+                      "Estimated on its own", "In one regression"],
+                 [[f"k = {k:+d}" if k else "k = 0", cell(cor, k, ".3f"), cell(one, k, ".4f"),
+                   cell(joint, k, ".4f")] for k in range(-3, 4)], height=16)
+
+    head = ["", "k = 0", "k = 0 significant", "k = +2", "k = +2 significant", "N"]
+    sh.panel_title("Panel C. The damage measure")
+    simple_table(sh, head, a7_rows(chk, "damage measure"), height=30)
+    sh.panel_title("Panel D. Exposure × the state's average damage, added to Figure 2")
+    simple_table(sh, head, a7_rows(chk, "long-run risk"), height=30)
+
+    add_image(sh, out / "figure4_appendix7.png", 940)
+    sh.notes("Panel A counts the wildfire records of NOAA Storm Events, each dated by the month in which "
+             "the fire begins; a record whose fire ran across a year end would carry its damage in the "
+             "earlier year, and none does, so the shares below it are what the annual dating leaves open. "
+             "Panel B takes the damage of Figure 2: the first column is the correlation of "
+             "exposure × damage(t+k) with exposure × damage(t) over the sample of Figure 2, the second "
+             "estimates that term alone on the same sample, and the third repeats the joint estimate of "
+             "Figure 2. Panels C and D re-estimate Figure 2 under insurer × state and state × year effects; "
+             "the coefficient columns are the number of violations with a window of plus or minus three "
+             "years and exposure in year t, and the counts are over all twelve panels of Figure 2 at the 5% "
+             "level. The two half-year series split the damage of a state and year by the month in which "
+             "the fire begins, so they sum to the damage of Figure 2; the loss-ratio shock is observed for "
+             "2014-2023 only and its window is correspondingly shorter. Every estimate is in "
+             "output/appendix7_checks.csv. " + STARS_NOTE)
+    # the sheet is added after the workbook is built, so move the tab to where the contents say
+    wb.move_sheet(sh.ws, offset=wb.sheetnames.index("Appendix 6") + 1 - wb.sheetnames.index("Appendix 7"))
+    return wb
 
 if __name__ == "__main__":
     main()

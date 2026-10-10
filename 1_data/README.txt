@@ -36,3 +36,15 @@ damage_check_sources.csv
 
 r_street_policy_study_314.pdf
     The report the regulation scores are read from, kept so they can be checked.
+
+parts/
+    insurer_line_state_year.zip is 114 MiB, over the 100 MB a file may be on GitHub, so the
+    repository carries the csv in six pieces instead: 1-200000 holds the header and the first
+    199,999 rows, then 20-400000, 40-600000, 60-800000, 80-1000000 and 100000.csv hold the
+    rest in order, 1,180,812 rows of 98 fields in all. To rebuild the zip the script reads:
+
+        cd parts
+        for p in 1-200000 20-400000 40-600000 60-800000 80-1000000 100000.csv; do
+            unzip -p "$p.zip" "$p"
+        done > ../insurer_line_state_year.csv
+        cd .. && zip -9 insurer_line_state_year.zip insurer_line_state_year.csv

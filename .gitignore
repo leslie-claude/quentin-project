@@ -8,3 +8,5 @@ __pycache__/
 *.aux
 ~$*
 .claude/
+1_data/insurer_line_state_year.zip
+1_data/insurer_line_state_year.csv

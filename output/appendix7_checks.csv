@@ -1,0 +1,949 @@
+window,design,dv,N,years,k,term,b,se,p,lo,hi,cond,rank,n_terms,absorbed,check,variant,damage,controls
+3,current,count_f1,9233,2016-2021,-3.0,x_lag3,-0.10337568840619928,0.17425738283624287,0.5569494678736167,-0.45750929788322947,0.25075792107083095,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,-2.0,x_lag2,0.08196756912607646,0.14801246836381088,0.5833477737931991,-0.21882995701684071,0.3827650952689936,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,-1.0,x_lag1,-0.03009361955890551,0.05789135521941433,0.6065508096439824,-0.14774300834052195,0.08755576922271092,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,0.0,x_t,0.17326747590806005,0.08340366575428024,0.045382373044427826,0.003770834121953809,0.34276411769416626,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,1.0,x_lead1,-0.07653402880093928,0.12384838869835081,0.540715701530996,-0.3282242367210093,0.17515617911913073,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,2.0,x_lead2,0.11939556934665843,0.04668947827279199,0.015183386255258835,0.02451113348386799,0.21428000520944887,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,3.0,x_lead3,0.052989961477026094,0.10642850016676396,0.6217649975789221,-0.16329877362179987,0.2692786965758521,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,expo,0.7840684611203863,0.8635733499569473,0.3703033135944138,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,-3.0,x_lag3,-0.5393080016332772,1.2283851391597764,0.6634114545721903,-3.0356869560182145,1.95707095275166,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,0.7591493289184221,0.6915769844891354,0.28004558525996415,-0.6463042005801283,2.1646028584169725,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,-1.0545520511115247,0.5609120454310366,0.06868958308763373,-2.1944624756489195,0.08535837342587005,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,0.0,x_t,1.535216386613313,0.5398312499848005,0.007490565724590503,0.43814729287358145,2.632285480353045,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,-0.37961919032577335,1.0200900193434814,0.7120960505816814,-2.452691531146369,1.6934531504948223,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,1.363836295618771,0.39630621943513133,0.0015512494365379492,0.5584451571632625,2.16922743407428,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,3.0,x_lead3,-0.09117831588193612,0.2899372129524298,0.7550812005028691,-0.6804016249513938,0.4980449931875215,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,expo,0.7402597969011268,6.271072740780655,0.9067277694089184,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,-3.0,x_lag3,-0.060547423182077155,0.12483817651186745,0.6307815880084284,-0.31424912195155597,0.19315427558740164,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,-2.0,x_lag2,0.061100217782794494,0.07176378725962598,0.4005001376567492,-0.08474134484342526,0.20694178040901423,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,-1.0,x_lag1,-0.08460146698557268,0.03777697514959454,0.03177262731996766,-0.16137351731196808,-0.007829416659177274,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,0.0,x_t,0.12903606642284252,0.048847753606447504,0.012378871717019901,0.029765487363634782,0.22830664548205026,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,1.0,x_lead1,-0.03593997657568723,0.09666381919055941,0.7123461465337071,-0.2323844923753823,0.16050453922400784,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,2.0,x_lead2,0.09681669460944237,0.023252396007581305,0.00020203329546975013,0.04956214049455402,0.14407124872433072,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,3.0,x_lead3,-0.02411976442779269,0.024088640683190228,0.32375891525130274,-0.07307377219313345,0.024834243337548068,3.3638291219985077,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,expo,0.1857605848245823,0.5402745143479315,0.7330942397605362,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,any_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,-3.0,x_lag3,-0.10276834532648713,0.14995026960469668,0.49790980911114024,-0.40784446269389507,0.2023077720409208,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,-2.0,x_lag2,0.06977067141676717,0.13334738667126267,0.6043136900524742,-0.20152662664080873,0.3410679694743431,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,-1.0,x_lag1,-0.04522980694961176,0.054904172204054795,0.4159701045957902,-0.156933185192554,0.06647357129333048,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,0.0,x_t,0.1517815657081259,0.08181873020177394,0.07253483727384258,-0.014679892505263359,0.31824302392151516,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,1.0,x_lead1,-0.0766801909994967,0.11332189856542181,0.5033385733267228,-0.3072353271668496,0.15387494516785621,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,2.0,x_lead2,0.08735798460533252,0.04821396889060179,0.07911357080151737,-0.010734072653343321,0.18545004186400837,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,3.0,x_lead3,0.0108470683809808,0.10029117356879953,0.914527078337914,-0.19319685844388862,0.2148909952058502,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,count_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,-3.0,x_lag3,-0.3932001662790666,0.9496660724107993,0.6815233249746244,-2.325310318067469,1.5389099855093353,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,0.7948354486513742,0.6173942947248555,0.20691006951834479,-0.46126268852428964,2.050933585827038,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,-1.068639535278073,0.6008360644473861,0.08452214590445695,-2.2910496996555367,0.15377062909939054,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,0.0,x_t,1.3925619914930132,0.5969931836377573,0.025914224308965395,0.17797022690901376,2.607153756077013,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,-0.2632740143670863,0.8971881891163436,0.7710207870122772,-2.088617109815157,1.5620690810809847,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,1.2455436646936064,0.24602333281142688,1.5334563655322597e-05,0.7450054305592887,1.7460818988279243,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,3.0,x_lead3,-0.15742460892304314,0.29984651314305394,0.6030809091728191,-0.7674669267994304,0.4526177089533442,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,-3.0,x_lag3,-0.04294775186022116,0.09790925489831616,0.6637747234801779,-0.24214562871271195,0.15625012499226965,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,-2.0,x_lag2,0.07471884529888705,0.05926537639048835,0.21624010228535506,-0.04585746957665436,0.19529516017442844,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,-1.0,x_lag1,-0.07976011541027374,0.0414045145548518,0.06270859826318786,-0.16399823365558353,0.004478002835036035,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,0.0,x_t,0.12113408691615471,0.052969312928772536,0.028751053782243297,0.013367209467185975,0.22890096436512344,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,1.0,x_lead1,-0.016743468516193905,0.08656941430673565,0.8478227295304857,-0.1928702662144772,0.1593833291820894,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,2.0,x_lead2,0.09092443208631686,0.02373013039271893,0.0005412215208320248,0.04264511879186272,0.139203745380771,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,3.0,x_lead3,-0.022988087025853286,0.02847615410111356,0.4252886909326863,-0.08092325815709353,0.034947084105386966,3.3880274388724674,7.0,7.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,base,any_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,-2.0,x_lag2,0.0226711859525286,0.11983816720280725,0.8510129913756925,-0.22037188203997693,0.2657142539450341,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,-1.0,x_lag1,-0.0992898223042574,0.07104870831237528,0.17082005141717826,-0.24338328140999554,0.04480363680148075,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,0.0,x_t,0.16784563024788784,0.06040786554840845,0.008621205034223367,0.045332800517127056,0.2903584599786486,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,1.0,x_lead1,0.02989752604680112,0.0682253039992347,0.6638469977435362,-0.10846980370911427,0.16826485580271652,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,2.0,x_lead2,0.25280256924200445,0.10674822273145831,0.02336431728350874,0.036307139105008907,0.46929799937899996,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,expo,1.3629608959279271,0.9247997593891786,0.149229335714816,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,count_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,-2.0,x_lag2,0.6795848586225426,0.363450606651108,0.06965963062222857,-0.05752713637927487,1.41669685362436,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,-1.0,x_lag1,-1.4568313139661844,0.5845154821465381,0.0174290683366769,-2.642283656787774,-0.27137897114459486,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,0.0,x_t,1.3575843977139885,0.43775378628721284,0.003734110292534787,0.46977856983841404,2.245390225589563,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,1.0,x_lead1,0.389971469847332,0.5621550381284346,0.49231746415243416,-0.7501317906018825,1.5300747302965465,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,2.0,x_lead2,1.5626430251335235,0.4270010472004408,0.0008034689491942526,0.6966447628939394,2.4286412873731074,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,expo,1.4705952974636143,6.106423044873364,0.8110550318846224,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,-2.0,x_lag2,0.0608949544813857,0.03772899483818456,0.11525789544848197,-0.015622993612958776,0.1374129025757302,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,-1.0,x_lag1,-0.12606046553653039,0.04546650438355543,0.008751402075039216,-0.2182708103223705,-0.033850120750690285,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,0.0,x_t,0.12544098011180546,0.04402701710378758,0.007204781456513043,0.0361500508425502,0.21473190938106074,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,1.0,x_lead1,0.04150533995357562,0.05194206582418356,0.4294906202451809,-0.06383805214298272,0.14684873205013396,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,2.0,x_lead2,0.12201064819216317,0.027552021670772732,8.486635948479204e-05,0.06613255832678563,0.1778887380575407,2.9429098571091323,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,expo,0.18146244792977362,0.5254562937589569,0.7318466219478699,,,,,,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,current,any_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,-2.0,x_lag2,0.012672959485399414,0.11574317365191807,0.9134753413365273,-0.22280829788476308,0.24815421685556194,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,-1.0,x_lag1,-0.10872964769126979,0.060900233504961106,0.08339508678290852,-0.2326321043753499,0.015172808992810316,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,0.0,x_t,0.13874077938031162,0.05476519099101777,0.01623051493079508,0.02732016054135128,0.25016139821927197,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,1.0,x_lead1,0.02854685309799703,0.06286246450557476,0.6527181219435636,-0.09934779257396087,0.15644149876995495,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,2.0,x_lead2,0.21738756306996773,0.09806864446641167,0.033648007448314754,0.017865405702932796,0.4169097204370027,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,count_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,-2.0,x_lag2,0.5865837298864073,0.339951751059581,0.09379344733402895,-0.10505330803899948,1.278220767811814,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,-1.0,x_lag1,-1.5235877507219149,0.52523839734321,0.006579063952518727,-2.592193304924449,-0.4549821965193803,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,0.0,x_t,1.1558743959669326,0.3851687353255725,0.005094579158092527,0.3722427118478401,1.939506080086025,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,1.0,x_lead1,0.39665350210593375,0.5392079805946663,0.4671571189885584,-0.700373382920681,1.4936803871325486,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,2.0,x_lead2,1.4814348990705772,0.34023596323613875,0.00012188454577377605,0.7892196271242423,2.173650171016912,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,-2.0,x_lag2,0.05795623910512503,0.03411954459255931,0.09880121211984205,-0.011460496310441735,0.1273729745206918,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,-1.0,x_lag1,-0.1285719765238673,0.04042655948190271,0.0031940064969917525,-0.21082043021304397,-0.046323522834690614,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,0.0,x_t,0.10882825761612262,0.03920801716153629,0.009004190626812347,0.029058946918320852,0.18859756831392438,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,1.0,x_lead1,0.04500093709915152,0.049315170668740735,0.36811520365621875,-0.05533153202272643,0.14533340622102947,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,2.0,x_lead2,0.11649119328421707,0.02247899141442814,1.0778084148288514e-05,0.07075734138033068,0.16222504518810346,2.934622218246107,5.0,5.0,,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+2,base,any_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Ln wildfire damage (Figure 2),lndmg_fire,none
+3,current,count_f1,9233,2016-2021,-3.0,x_lag3,-0.3201697229754296,0.2826731757529432,0.2652859549602593,-0.894630732330751,0.2542912863798917,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,-2.0,x_lag2,0.1159114382889162,0.16541660903616082,0.4882431446482123,-0.22025555717477735,0.45207843375260975,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,-1.0,x_lag1,-0.03716801386960791,0.10147561511592008,0.7164290657929069,-0.2433912755185746,0.16905524777935876,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,0.0,x_t,0.06253214656709954,0.09797696355734697,0.5275976783692315,-0.13658099966194107,0.2616452927961401,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,1.0,x_lead1,-0.1762117477758037,0.1361658681535458,0.20435368578970703,-0.4529340856873276,0.1005105901357202,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,2.0,x_lead2,0.11194321842349154,0.04307643743922587,0.013738431893940417,0.024401364956656554,0.19948507189032655,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,3.0,x_lead3,0.033408923078476364,0.06132127428349343,0.5894348706144297,-0.09121089988851899,0.1580287460454717,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,expo,0.8786015457972381,0.8317485028529624,0.2982653863602869,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,-3.0,x_lag3,-1.8064075835986937,1.8433327603541878,0.33402378919391085,-5.552510464673966,1.9396952974765787,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,0.7373665487457611,1.082395723428402,0.500336342391615,-1.462326217100589,2.937059314592111,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,-1.4296758698737277,0.9043672887529138,0.12317000998017491,-3.2675713268483886,0.4082195871009331,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,0.0,x_t,0.5201509877758855,0.6714308761537144,0.4438770800460088,-0.8443607236738858,1.884662699225657,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,-0.9437590816207831,1.0176486171265176,0.3602600630554549,-3.0118698961909174,1.1243517329493513,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,1.4949250958863476,0.5301303145920515,0.007956992551321651,0.41757067483377597,2.572279516938919,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,3.0,x_lead3,0.1440917694247025,0.2908183865316459,0.6234557967097358,-0.4469222998128728,0.7351058386622777,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,expo,1.6375420594894647,6.202386727604058,0.7933597644683252,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,-3.0,x_lag3,-0.1728665556896435,0.18368958360836837,0.3533026764342311,-0.5461687033966081,0.20043559201732114,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,-2.0,x_lag2,0.05544916685175539,0.11079464947356393,0.6199699271166972,-0.16971265120267617,0.28061098490618697,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,-1.0,x_lag1,-0.11263849278829106,0.06389056454320685,0.08688919977587872,-0.2424797417784325,0.01720275620185037,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,0.0,x_t,0.04063153865831072,0.05468768927930883,0.46260035839630476,-0.07050721760683812,0.15177029492345956,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,1.0,x_lead1,-0.09414072701630291,0.09410864751138069,0.32421217004145264,-0.28539250920062287,0.09711105516801707,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,2.0,x_lead2,0.10592152574929689,0.028591760209126377,0.0007483489250705855,0.04781607805257099,0.1640269734460228,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,3.0,x_lead3,-0.003748644073582826,0.024295229442050256,0.8782890224167241,-0.053122490709803634,0.04562520256263799,3.3293763717977445,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,expo,0.27186964827168025,0.5329508851447611,0.6132622852597605,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,any_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,-3.0,x_lag3,-0.28402969119377286,0.23730925903062355,0.23988282113430714,-0.766839008917944,0.19877962653039832,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,-2.0,x_lag2,0.1275237817169003,0.16876955505442698,0.4552436067141352,-0.2158404597850497,0.47088802321885026,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,-1.0,x_lag1,-0.03841905655671672,0.11062238267089243,0.7305718953009113,-0.26348198634094194,0.18664387322750853,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,0.0,x_t,0.050602271900279855,0.0881544157288905,0.5698474056169365,-0.12874923543785644,0.22995377923841614,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,1.0,x_lead1,-0.17118000857064503,0.13923632939146713,0.22760820565398054,-0.45445845067827983,0.11209843353698978,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,2.0,x_lead2,0.0900004421183841,0.046404575749556955,0.06103202118792872,-0.004410377115736122,0.1844112613525043,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,3.0,x_lead3,0.03441213477515319,0.06359923321204593,0.5920880933003854,-0.09498147810080228,0.16380574765110867,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,count_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,-3.0,x_lag3,-1.5235781877684331,1.4481034542827331,0.3003881421572676,-4.4697668177958825,1.422610442259016,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,0.9650609187295468,1.080312429211682,0.37815639962048353,-1.2328512445262754,3.162973081985369,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,-1.4084344934682984,1.0091547289384195,0.1721383040974227,-3.4615752269868536,0.6447062400502568,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,0.0,x_t,0.40372413902730575,0.606473793025419,0.5102353027930406,-0.8301560703850331,1.6376043484396448,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,-0.8953174461337265,1.0034448145020667,0.3787225244505197,-2.936841271384395,1.146206379116942,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,1.3850465335891102,0.34671713241325813,0.0003415124474044351,0.6796452238065688,2.090447843371652,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,3.0,x_lead3,0.24543318750054127,0.23719335475661243,0.3083144603440868,-0.23714032120511452,0.7280066962061971,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,-3.0,x_lag3,-0.13973473235554099,0.14554819737422062,0.3440078888866971,-0.43585476642956844,0.1563853017184865,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,-2.0,x_lag2,0.08318218322184338,0.10478328592102695,0.43295453170178666,-0.13000101490149385,0.2963653813451806,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,-1.0,x_lag1,-0.10659782641951672,0.07181526821883412,0.14721036161131162,-0.25270708820116206,0.0395114353621286,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,0.0,x_t,0.03532050209435618,0.04904243234696245,0.47647074159978575,-0.06445707673966318,0.13509808092837555,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,1.0,x_lead1,-0.08433874566280254,0.09459717023624492,0.37908543355240587,-0.27679813560386207,0.108120644278257,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,2.0,x_lead2,0.09947873523117119,0.023695507249646374,0.0001910399723437095,0.051269863250943945,0.14768760721139845,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,3.0,x_lead3,0.006257244857801631,0.023075292487965336,0.7879520998046656,-0.040689790702081646,0.05320428041768491,3.307568627337015,7.0,7.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,base,any_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,-2.0,x_lag2,0.1321140882694734,0.10582629363651373,0.21994099676353374,-0.08251158300073569,0.3467397595396825,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,-1.0,x_lag1,-0.12120850125128549,0.06251236891872138,0.060376833905820604,-0.24798946164242106,0.005572459139850078,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,0.0,x_t,0.12375977893647035,0.08047688888864298,0.13283418287679116,-0.03945491663615673,0.2869744745090974,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,1.0,x_lead1,0.01832812327235951,0.06392390999448527,0.7759721463627796,-0.11131557510667033,0.14797182165138933,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,2.0,x_lead2,0.08051599332872152,0.04125924465170841,0.05881611869273451,-0.00316163323439303,0.16419361989183606,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,expo,1.4269188742786667,0.9417897618019972,0.1384754033202955,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,count_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,-2.0,x_lag2,1.1533234626340103,0.642945697673036,0.08124648361581288,-0.15063084977286412,2.4572777750408847,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,-1.0,x_lag1,-1.5431600820087252,0.6442707590609613,0.021936854623745727,-2.849801743467382,-0.23651842055006855,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,0.0,x_t,0.9174608406804374,0.5471959395311677,0.10227348634600797,-0.1923039616435851,2.02722564300446,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,1.0,x_lead1,0.2663042774944114,0.6130949105299672,0.6666190313456686,-0.9771098325830612,1.5097183875718838,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,2.0,x_lead2,1.4225394616711275,0.39166210053459305,0.0008686142538740782,0.6282119051655174,2.2168670181767376,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,expo,1.6260272703711787,6.253760707751705,0.7963390133527315,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,-2.0,x_lag2,0.09913375053504996,0.0686311157065127,0.15726225232471625,-0.04005660350992361,0.2383241045800235,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,-1.0,x_lag1,-0.1296397211182523,0.04820714626252213,0.010783375534422879,-0.22740834525766057,-0.03187109697884405,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,0.0,x_t,0.08448516021078677,0.04820294907152045,0.08816773993346239,-0.013274951630730017,0.18224527205230356,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,1.0,x_lead1,0.023356399413753275,0.05599107612711586,0.6790495256951161,-0.09019876618809011,0.13691156501559665,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,2.0,x_lead2,0.1138631319718841,0.024451526380004578,4.268242638261199e-05,0.06427313800578158,0.1634531259379866,2.9458096811947705,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,expo,0.20077904727981327,0.537829831372698,0.7111045963364631,,,,,,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,current,any_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,-2.0,x_lag2,0.12741624822556136,0.10595071491138924,0.23768945293598343,-0.08814210203735379,0.3429745984884765,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,-1.0,x_lag1,-0.11616295080142933,0.059812103429401076,0.060696926137801865,-0.23785159020116786,0.005525688598309195,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,0.0,x_t,0.10083540891581455,0.07672646251270993,0.19783455396023641,-0.055265752785467,0.25693657061709607,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,1.0,x_lead1,0.018998658174754046,0.06077461464336958,0.7565451543019386,-0.10464822501376993,0.142645541363278,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,2.0,x_lead2,0.06680031456809057,0.03712801666785922,0.081139720213659,-0.008737203306623018,0.14233783244280418,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,count_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,-2.0,x_lag2,1.1155767092467654,0.6709435672674986,0.10584381440141843,-0.2494682420841896,2.4806216605777207,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,-1.0,x_lag1,-1.593315064245159,0.6284868889458817,0.01616174382627955,-2.8719812540518985,-0.31464887443841927,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,0.0,x_t,0.7350271918858189,0.510244367811398,0.1591360345647721,-0.3030727798638373,1.773127163635475,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,1.0,x_lead1,0.26440815676329515,0.5880671597105542,0.6559222398218338,-0.9320234755954107,1.460839789122001,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,2.0,x_lead2,1.2979783030816472,0.30213124457668983,0.0001441438414762075,0.6832876641529643,1.9126689420103302,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,-2.0,x_lag2,0.09902204962640393,0.06847014407826028,0.15755071701305012,-0.04028150591937685,0.2383256051721847,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,-1.0,x_lag1,-0.13194684330929396,0.046253183131327424,0.007427221514863858,-0.2260496519457053,-0.03784403467288262,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,0.0,x_t,0.06987795800431469,0.045261849978886284,0.1321588757291403,-0.022207968168586473,0.16196388417721586,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,1.0,x_lead1,0.024412457570257905,0.05423352371333982,0.6555557272897543,-0.08592647605911341,0.13475139119962923,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,2.0,x_lead2,0.10415135770122774,0.022769500822283528,6.432095378450242e-05,0.057826459963006616,0.15047625543944887,2.8826110924588777,5.0,5.0,,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+2,base,any_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning July to December,lndmg_fire_h2,none
+3,current,count_f1,9233,2016-2021,-3.0,x_lag3,0.16800202868547584,0.09286669138556365,0.07929048984077758,-0.020725794981338974,0.35672985235229066,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,-2.0,x_lag2,0.05765541531778581,0.32271062925467575,0.8592651891840277,-0.5981714890834949,0.7134823197190666,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,-1.0,x_lag1,0.13720669095296095,0.11557275661208372,0.24338167294408408,-0.09766540909865923,0.37207879100458113,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,0.0,x_t,0.3831927172487317,0.14465396465741104,0.01215626689395255,0.08922049182266883,0.6771649426747945,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,1.0,x_lead1,0.18627281756270372,0.13433794231837562,0.1745894812121469,-0.08673472810685554,0.45928036323226296,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,2.0,x_lead2,0.0664514827006182,0.0688310362386759,0.34114709646764196,-0.07343001276607981,0.20633297816731622,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,3.0,x_lead3,0.12345699642910717,0.2591119827391297,0.636793188504104,-0.40312190779091667,0.650035900649131,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,expo,0.6149970604536726,0.9351772349661049,0.5152062372389592,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,-3.0,x_lag3,1.6608589377785672,0.8905356231407721,0.07082994389861796,-0.1489271927011,3.4706450682582344,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,2.2250196819909442,2.2603260383769435,0.33188227029240425,-2.3685154987684705,6.818554862750359,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,1.4790862940192688,1.2884490819461358,0.25899883738061824,-1.139357278301221,4.097529866339759,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,0.0,x_t,4.177848300119233,0.937907907492164,8.651979444329605e-05,2.2717901048726112,6.083906495365854,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,1.0972967131903397,1.2204035601127192,0.37490946215187426,-1.38286172100053,3.5774551473812095,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,0.15105676036664115,0.641434429907202,0.8152346972237443,-1.1524948378996112,1.4546083586328933,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,3.0,x_lead3,0.32553957124087335,0.9206111756453119,0.7258127002186279,-1.5453674356808418,2.1964465781625884,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,expo,-2.618680978030468,5.6469822291021625,0.6457957170916848,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,-3.0,x_lag3,0.11924915981514818,0.07436655319897063,0.11806784212324883,-0.03188185960034391,0.2703801792306403,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,-2.0,x_lag2,0.14540758209335516,0.17908925859667132,0.4224812550583077,-0.21854558036751118,0.5093607445542215,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,-1.0,x_lag1,0.10108988849110874,0.1063343667585311,0.3484766256920939,-0.11500754450569263,0.3171873214879101,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,0.0,x_t,0.3298782421463874,0.10338930385683504,0.00304881885032926,0.11976589706115318,0.5399905872316216,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,1.0,x_lead1,0.11258934148099883,0.1206229256046541,0.3571956351436798,-0.1325459367768991,0.3577246197388968,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,2.0,x_lead2,0.012801252032077236,0.05261445099000035,0.8092326935129028,-0.09412417710311718,0.11972668116727167,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,3.0,x_lead3,0.016077909100868582,0.07854337727542313,0.8390262442356575,-0.14354143811038012,0.1756972563121173,2.5348509358617393,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,expo,-0.04258552436354305,0.5072140474387178,0.9335809062765295,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,any_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,-3.0,x_lag3,0.12936862523757725,0.09500549193836155,0.182518388219034,-0.06392150145271913,0.32265875192787363,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,-2.0,x_lag2,-0.02612313074423477,0.3356471552703915,0.9384339646922664,-0.7090024026871996,0.65675614119873,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,-1.0,x_lag1,0.0599186643215361,0.1365051083355548,0.6635598179265723,-0.21780306676712935,0.3376403954102015,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,0.0,x_t,0.27244890030554647,0.1175216469151467,0.026774840283478873,0.03334931187524065,0.5115484887358523,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,1.0,x_lead1,0.12582365532746342,0.12754452892799256,0.33106233435936483,-0.13366763988250713,0.385314950537434,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,2.0,x_lead2,-0.002344239236675887,0.048406661545936217,0.9616670374520613,-0.10082833265033575,0.09613985417698398,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,3.0,x_lead3,-0.03478394513436198,0.19403800890987627,0.8588269048455284,-0.4295572425481162,0.3599893522793923,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,count_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,-3.0,x_lag3,1.6080267257512908,0.7582678633803777,0.04155298215393666,0.06531915813968747,3.150734293362894,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,1.8507434093236372,1.9977093437344708,0.36094734483769053,-2.2136268103616223,5.915113629008896,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,1.4021986822394477,1.2580440851389194,0.2730796535390789,-1.1573112538413415,3.9617086183202366,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,0.0,x_t,3.654179814276142,0.6954818728172655,8.71543383595963e-06,2.2392113049307003,5.069148323621584,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,1.1667495775472578,1.1908842693541775,0.3343459647389324,-1.2561226859455945,3.58962184104011,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,0.06245299550619626,0.6678146238472488,0.9260571766746537,-1.296226072571407,1.4211320635837996,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,3.0,x_lead3,-0.17748276587518214,0.7033492778832241,0.802343816848716,-1.608457631178547,1.2534920994281828,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,-3.0,x_lag3,0.11783565494844417,0.06461331037715869,0.07726486078314343,-0.013621113432727261,0.2492924233296156,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,-2.0,x_lag2,0.13113397931386386,0.1525038837762181,0.3960629782961522,-0.1791375051492878,0.4414054637770155,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,-1.0,x_lag1,0.10675030244877276,0.10111878096529184,0.2987767296757027,-0.09897740428454246,0.312478009182088,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,0.0,x_t,0.2908258839596079,0.08011137231612739,0.0009480054564523499,0.1278380714827873,0.4538136964364285,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,1.0,x_lead1,0.12870110687080688,0.1137497820021915,0.26602522212234625,-0.10272456469417915,0.3601267784357929,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,2.0,x_lead2,0.00659534734376212,0.05512592649063405,0.9054925753406347,-0.10555919338750058,0.11874988807502482,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,3.0,x_lead3,-0.011525009253269207,0.06875096351341621,0.867894210333171,-0.1513998962356958,0.12834987772915737,2.5908368327086926,7.0,7.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,base,any_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,-2.0,x_lag2,-0.05648624450563961,0.23984152628587985,0.8151438092546286,-0.5429074051520275,0.4299349161407483,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,-1.0,x_lag1,0.04540881949749617,0.152047794037366,0.7669255340559709,-0.26295839945199695,0.35377603844698924,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,0.0,x_t,0.279544591585879,0.07934976619263337,0.0011807880331544673,0.11861580679139794,0.4404733763803601,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,1.0,x_lead1,0.04676358942689918,0.07505078740693516,0.5371513988925529,-0.10544646228196514,0.1989736411357635,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,2.0,x_lead2,0.5013583916652988,0.3082986851662194,0.11262831520701777,-0.1239003222304712,1.1266171055610688,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,expo,1.3507108178302472,0.9719557943686552,0.17316004110177996,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,count_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,-2.0,x_lag2,0.6594661618203355,1.4147248425281294,0.6439204351290577,-2.209728804348976,3.528661127989647,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,-1.0,x_lag1,-0.5858436572725839,0.8706734906328216,0.5053312357204063,-2.3516513404377175,1.17996402589255,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,0.0,x_t,2.407492909982433,0.684766605472261,0.0012046587263907504,1.0187218653523937,3.7962639546124723,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,1.0,x_lead1,0.4734135992350904,0.5005467441428775,0.35055946573766894,-0.5417422497713756,1.4885694482415563,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,2.0,x_lead2,0.6854798253563786,0.6805024346904601,0.32050670281140925,-0.6946430800919342,2.0656027308046916,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,expo,1.042525260974451,6.369336126182766,0.8708994815080426,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,-2.0,x_lag2,0.03795778787806591,0.11526097049782597,0.7438219367220475,-0.19580229493575957,0.2717178706918914,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,-1.0,x_lag1,-0.06384570133579565,0.07307712820122293,0.3880859128248857,-0.21205298664957514,0.08436158397798385,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,0.0,x_t,0.20185870088504132,0.0705327394065229,0.006973844294909437,0.05881167522195482,0.3449057265481278,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,1.0,x_lead1,0.07186199486073745,0.052729090856212794,0.1813935263197246,-0.035077557981900834,0.17880154770337575,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,2.0,x_lead2,0.05439138524716731,0.05948633156252394,0.3666162571704128,-0.06625248693512151,0.17503525742945614,2.0145828101081253,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,expo,0.16117855799286926,0.5460643821128851,0.7695642400447364,,,,,,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,current,any_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,-2.0,x_lag2,-0.09100124128917156,0.26060766287143283,0.7291660947010743,-0.6212115180336216,0.43920903545527856,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,-1.0,x_lag1,-0.009313631680912805,0.1227021374157826,0.939953470508305,-0.2589530072830533,0.2403257439212277,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,0.0,x_t,0.2272922979006287,0.05965327847657121,0.0005746584175170266,0.10592679029703919,0.3486578055042182,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,1.0,x_lead1,0.030585650467101894,0.07904699768269399,0.7012921293126844,-0.13023667553578142,0.19140797646998522,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,2.0,x_lead2,0.397645032045626,0.24431964782207313,0.11313005606551929,-0.09942702891581667,0.8947170930070687,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,count_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,-2.0,x_lag2,0.5557770491958626,1.3018484016937555,0.6722146047753863,-2.0928534390100544,3.2044075374017793,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,-1.0,x_lag1,-0.5743734379001332,0.7911339265903772,0.47294898201111746,-2.1839475138794175,1.035200638079151,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,0.0,x_t,2.226114376341728,0.5203014851016456,0.0001516337188394168,1.1675530456168208,3.284675707066635,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,1.0,x_lead1,0.5690718656080449,0.4954699323506685,0.2589992009230522,-0.4389692911855789,1.5771130224016687,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,2.0,x_lead2,0.7488549042659657,0.5808597321693834,0.20628605236810027,-0.4329131065049704,1.9306229150369019,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,-2.0,x_lag2,0.0377125695136613,0.10439438242181208,0.7202144808655571,-0.17467939849129166,0.2501045375186143,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,-1.0,x_lag1,-0.05525583039917662,0.06713288753943429,0.4163702525856823,-0.19183871706010175,0.08132705626174852,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,0.0,x_t,0.18681688491496667,0.05239873901658546,0.0011336846051348548,0.08021084881866805,0.2934229210112653,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,1.0,x_lead1,0.08706086297132387,0.05029416627299032,0.09278745655836529,-0.01526338768353551,0.18938511362618327,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,2.0,x_lead2,0.06098562287314358,0.048236826522255624,0.2149809883298257,-0.03715293858679545,0.15912418433308262,2.050317046374247,5.0,5.0,,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+2,base,any_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,Fires beginning January to June,lndmg_fire_h1,none
+3,current,count_f1,9233,2016-2021,-3.0,x_lag3,-0.09575237489053877,0.15753771529667523,0.5473548193854132,-0.415907531812665,0.22440278203158742,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,-2.0,x_lag2,0.08275524130373468,0.15508030067405584,0.5970703685671768,-0.2324058482444562,0.39791633085192557,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,-1.0,x_lag1,0.03768943063700266,0.10479807138939995,0.7213416496137697,-0.17528587453119168,0.250664735805197,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,0.0,x_t,0.16787555542461538,0.10018262934189046,0.10297199779331456,-0.035720042984453665,0.37147115383368445,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,1.0,x_lead1,-0.08847089017638375,0.14434207919373762,0.5440042596437564,-0.38180928808136033,0.2048675077285928,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,2.0,x_lead2,0.0947166774080523,0.05750727318075805,0.10876340614251512,-0.022152162759377342,0.21158551757548194,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,3.0,x_lead3,0.11065962152892804,0.09577893693773956,0.2559962021317965,-0.08398659717108121,0.3053058402289373,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,expo,0.774563770827866,0.8629137210398493,0.37570364722820937,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,-3.0,x_lag3,-0.5211961744793133,1.1151318457370933,0.6432060521947562,-2.7874167451438545,1.7450243961852276,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,0.6786553050909369,0.7776129690695034,0.3889259460496328,-0.9016443816748104,2.258954991856684,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,-0.6129647639620233,0.8695981623425147,0.4856841815587747,-2.380200854695377,1.1542713267713305,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,0.0,x_t,1.1848519253939056,0.7585997011200941,0.12757409858854807,-0.35680815197746796,2.726512002765279,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,-0.5740377820178625,0.9031966439642083,0.5293165831124576,-2.409554202548315,1.2614786385125902,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,0.8063218341530998,0.2344431140983504,0.0015600196488152474,0.3298761027793798,1.2827675655268198,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,3.0,x_lead3,0.8078433357222813,0.3348121080811185,0.021369818507624316,0.1274232674213377,1.488263404023225,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,expo,1.2387959946854412,6.4113575445806505,0.8479371138188245,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,lnpen_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,-3.0,x_lag3,-0.05891356206296016,0.11694008172647054,0.617655938953688,-0.29656440107074516,0.17873727694482486,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,-2.0,x_lag2,0.06195958744914907,0.07643727334805482,0.42323673223406555,-0.09337964161965293,0.21729881651795105,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,-1.0,x_lag1,-0.047095565256832186,0.06518713407725954,0.47494765409240625,-0.17957176056350083,0.08538063004983647,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,0.0,x_t,0.10359036796362163,0.060829018432849186,0.09769897308658759,-0.020029070753722428,0.2272098066809657,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,1.0,x_lead1,-0.035343803123252596,0.09172488839918674,0.7023975843060373,-0.22175120394028036,0.15106359769377514,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,2.0,x_lead2,0.060607766658534803,0.027545989171144297,0.03468406890289932,0.004627581411751472,0.11658795190531814,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,3.0,x_lead3,0.03819452496506453,0.02105904870965304,0.07856058006582312,-0.004602611146582253,0.08099166107671131,3.8903057826615837,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,expo,0.2096951644310798,0.5364595480607993,0.6983193429641155,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,any_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,-3.0,x_lag3,-0.10733416355938641,0.1439404690813371,0.46113691774887355,-0.4001832498274002,0.1855149227086274,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,-2.0,x_lag2,0.067963821326251,0.13683676520133006,0.622708743414266,-0.2104326707293383,0.3463603133818403,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,-1.0,x_lag1,0.01007612947822938,0.10127291049920673,0.9213473737212903,-0.1959651561496244,0.21611741510608318,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,0.0,x_t,0.14467198336361536,0.10145111658749872,0.163252716331449,-0.06173186527696711,0.35107583200419784,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,1.0,x_lead1,-0.08819828709977258,0.13860269344055534,0.5289448866164026,-0.37018758717226347,0.19379101297271834,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,2.0,x_lead2,0.06433039277644936,0.06482846736732997,0.32826367215900976,-0.0675641157925787,0.19622490134547743,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,3.0,x_lead3,0.06647670478522302,0.09179924854180296,0.47407471375351884,-0.12029027066742898,0.253243680237875,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,count_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,-3.0,x_lag3,-0.45632998783191986,0.9442207949266529,0.6320829096285647,-2.37736163927997,1.46470166361613,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,0.6805549609269121,0.6824657608980652,0.3259236854210146,-0.707932069605604,2.0690419914594282,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,-0.6812511492806664,0.9345251780294949,0.47115562054579585,-2.58255691983324,1.220054621271907,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,0.0,x_t,1.027053914295866,0.8334219072504278,0.2265327269285078,-0.668555705234533,2.722663533826265,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,-0.4971172103453507,0.856547165847372,0.56560518710209,-2.2397755222487046,1.2455411015580031,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,0.7102673532992827,0.31027300189275653,0.0286022754903843,0.07901218456294201,1.3415225220356235,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,3.0,x_lead3,0.6402044569388827,0.24830516702473424,0.014579260350306766,0.13502379619134797,1.1453851176864176,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,lnpen_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,-3.0,x_lag3,-0.05083228599143819,0.0999836946026371,0.6145509284109485,-0.25425064215600623,0.15258607017312983,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,-2.0,x_lag2,0.07262458037568106,0.06284874680135241,0.25616545613839503,-0.0552421564171906,0.20049131716855273,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,-1.0,x_lag1,-0.048980622845057255,0.07228228313576551,0.5027301234403287,-0.1960400336193365,0.098078787929222,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,0.0,x_t,0.09678272329505228,0.06642839701134291,0.1545811141617941,-0.03836686660956279,0.23193231319966734,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,1.0,x_lead1,-0.021006810176217205,0.08677967746297145,0.8102235226238799,-0.1975613914823522,0.1555477711299178,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,2.0,x_lead2,0.056115039087538225,0.03678902425405778,0.13670712619445746,-0.01873279353557706,0.13096287171065352,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,3.0,x_lead3,0.03028417642779218,0.020457284394139623,0.1482617250560745,-0.011336481616356503,0.07190483447194086,3.889176974440435,7.0,7.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,base,any_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,-2.0,x_lag2,-0.015769649469335373,0.1350910604735082,0.907720066495965,-0.2897470188017446,0.2582077198630738,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,-1.0,x_lag1,-0.07570991527424095,0.1073997153588573,0.4853862521328338,-0.2935266337005473,0.14210680315206545,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,0.0,x_t,0.10352936803755242,0.058903877673392314,0.08731740794978049,-0.015933232906340813,0.22299196898144563,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,1.0,x_lead1,0.026148375547059354,0.07815463383620648,0.7398892711802669,-0.13235656848497473,0.18465331957909342,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,2.0,x_lead2,0.20937697890512658,0.11728086072951546,0.08264676279415006,-0.028479631170227393,0.44723358898048055,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,expo,1.3549849956256332,0.9291079564309551,0.1534080368847175,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,count_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,-2.0,x_lag2,0.14283407461154002,0.5185283866868213,0.7845374665887137,-0.9087902357660735,1.1944583849891535,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,-1.0,x_lag1,-1.5912498603552558,0.8535526178633792,0.07045466916162058,-3.322334804165134,0.13983508345462226,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,0.0,x_t,0.8564385336286297,0.4286427118989434,0.05331181158513987,-0.01288917893760888,1.7257662461948682,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,1.0,x_lead1,0.3502981624247331,0.5593260052521157,0.5350784750102477,-0.7840675534194427,1.484663878268909,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,2.0,x_lead2,0.88021165530883,0.22925675761379238,0.0004803808996414194,0.4152574005080686,1.3451659101095914,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,expo,1.4362707826150811,6.215408996025889,0.8185592335896759,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,lnpen_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,-2.0,x_lag2,0.016522451183619304,0.052084476122156706,0.752906095553723,-0.08910976238393621,0.12215466475117483,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,-1.0,x_lag1,-0.13835560385070864,0.06767994695666733,0.04829459553074522,-0.27561689826020075,-0.001094309441216551,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,0.0,x_t,0.08353268654806249,0.040824760723635646,0.04810118489704718,0.0007362342329947369,0.16632913886313025,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,1.0,x_lead1,0.04205157090981421,0.0521198104782968,0.42506573051423113,-0.06365230405345755,0.14775544587308598,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,2.0,x_lead2,0.06880117106375269,0.023364202661466774,0.005632965496881859,0.02141637180834046,0.11618597031916492,3.006382398804845,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,expo,0.16676680923910445,0.5336359673347395,0.7564557578214983,,,,,,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,current,any_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,-2.0,x_lag2,-0.015670450757976625,0.12341608924194909,0.8997326915914958,-0.26676237227209476,0.2354214707561415,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,-1.0,x_lag1,-0.09329071021505948,0.09581494655569466,0.3373112614345988,-0.28822768470691107,0.10164626427679209,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,0.0,x_t,0.09840961816951259,0.05975456371919398,0.1090707958819781,-0.02316195580959879,0.21998119214862397,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,1.0,x_lead1,0.022313295866746363,0.07518620442322371,0.7684991671954218,-0.1306541871894554,0.1752807789229481,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,2.0,x_lead2,0.175247579057178,0.1092128840013493,0.11810166931205379,-0.04694770412212726,0.3974428622364833,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,count_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,-2.0,x_lag2,0.18411762629634756,0.42707031420038666,0.6691859339917672,-0.6847634610308345,1.0529987136235297,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,-1.0,x_lag1,-1.5996164125978831,0.8252670578629271,0.06118028538406817,-3.2786348663010165,0.07940204110525029,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,0.0,x_t,0.7583735572182034,0.42196192830296636,0.08145212827202974,-0.10011444085540255,1.6168615552918095,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,1.0,x_lead1,0.3525564504929104,0.5529323636140501,0.5281257161224686,-0.7723929017346944,1.4775058027205152,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,2.0,x_lead2,0.8551162471698861,0.1864125576760419,6.191579205316877e-05,0.4758570469413218,1.2343754473984503,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,lnpen_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,-2.0,x_lag2,0.02612742680887721,0.0421005870314771,0.5391287075968498,-0.05952686153826017,0.1117817151560146,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,-1.0,x_lag1,-0.13534220481861325,0.06538750529184766,0.046368156192245547,-0.2683740845969269,-0.0023103250402996267,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,0.0,x_t,0.07609088916987955,0.04065516579825109,0.07014643922562458,-0.006622667567001431,0.15880444590676052,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,1.0,x_lead1,0.04551698548508838,0.0509452702723928,0.37808666627259013,-0.05813194621678579,0.14916591718696254,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,2.0,x_lead2,0.06880240574805581,0.02337608910084523,0.0059051400001697285,0.02124339487784744,0.11636141661826419,3.010446816782317,5.0,5.0,,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,expo,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+2,base,any_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,damage measure,November and December fires dated to the year after,lndmg_fire_shift,none
+3,current,count_f1,6059,2017-2020,-3.0,x_lag3,0.6264998705431049,0.7650448876794994,0.4187148306264863,-0.9299956566762475,2.182995397762457,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,-2.0,x_lag2,0.3502561532848613,0.5122535265336534,0.4989030329155473,-0.691931482620227,1.3924437891899497,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,-1.0,x_lag1,0.826431133286143,0.3781732039979073,0.03606811387346709,0.05703196466697136,1.5958303019053148,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,0.0,x_t,0.761233078092592,0.6278449752702616,0.2339477205750995,-0.5161271285214568,2.038593284706641,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,1.0,x_lead1,-0.4412007963092157,0.30657857842630765,0.15953739314805881,-1.0649396039878103,0.18253801136937886,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,2.0,x_lead2,0.35817577797803035,0.10599295471837214,0.001880463710758784,0.1425314901816472,0.5738200657744135,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,3.0,x_lead3,-0.07256959358945284,0.13453222577092458,0.5932172327359093,-0.346277464920307,0.20113827774140133,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,expo,-2.1287219849892534,1.405333934125233,0.1393576194692685,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,6059,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,-3.0,x_lag3,5.313030229097308,6.396408895241794,0.4121537692432584,-7.700561517013144,18.326621975207757,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,-2.0,x_lag2,1.876333056945038,4.576060718876433,0.684432031014254,-7.433732477666082,11.186398591556157,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,-1.0,x_lag1,4.375215749270843,2.8840417488183365,0.1387780546527797,-1.4924113071826053,10.24284280572429,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,0.0,x_t,3.679014693045151,3.672413929697196,0.32373107987794203,-3.792567625489833,11.150597011580135,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,1.0,x_lead1,-2.3186046107513563,1.7724347574880939,0.19986265882281318,-5.924650238591791,1.2874410170890789,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,2.0,x_lead2,3.3871390643331125,1.3064126354505765,0.014083450848066725,0.7292225727278088,6.045055555938417,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,3.0,x_lead3,-0.20481132993973086,0.9814160911096205,0.8359733721280227,-2.2015173804651873,1.7918947205857254,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,expo,-12.539354942118834,12.522994998656529,0.32396477609078644,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,lnpen_f1,6059,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,-3.0,x_lag3,0.5605830434834495,0.6492589695069741,0.39413892073102863,-0.7603442619846829,1.8815103489515819,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,-2.0,x_lag2,0.2442309937735983,0.34037297979619546,0.4780903005961834,-0.4482630404601759,0.9367250280073725,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,-1.0,x_lag1,0.4223132659124047,0.27611109357538355,0.13566961747351303,-0.13943897776217884,0.9840655095869882,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,0.0,x_t,0.3629928471458408,0.3331829815820903,0.2838388731928998,-0.31487302573270315,1.0408587200243846,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,1.0,x_lead1,-0.25198014503213945,0.1811653482668746,0.17356855296327,-0.6205638174488328,0.11660352738455393,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,2.0,x_lead2,0.35836410001635094,0.12909506670335077,0.008997324959556963,0.09571821198314107,0.6210099880495608,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,3.0,x_lead3,-0.03091371057649339,0.08087008574202013,0.7047165313919779,-0.19544513712467299,0.1336177159716862,3.575959196668863,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,expo,-0.9236573023317105,1.0763485537149797,0.39700551142605844,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,any_f1,6059,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,-3.0,x_lag3,0.9441583794486574,0.6328894158143794,0.14524459756435926,-0.34346481861947264,2.2317815775167875,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,-2.0,x_lag2,0.5529377492835107,0.5014651481231575,0.2781583533212362,-0.4673007657107514,1.5731762642777727,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,-1.0,x_lag1,1.1260694830018452,0.422379079242729,0.011792767308017149,0.2667327849599468,1.9854061810437436,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,0.0,x_t,0.8755769759162413,0.6455887833621891,0.1842286612931796,-0.4378832796958392,2.1890372315283217,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,1.0,x_lead1,-0.3190606146865618,0.28002180473993993,0.2627341645185304,-0.8887692600493413,0.2506480306762176,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,2.0,x_lead2,0.4116577487859518,0.12489364231835401,0.002350379910300626,0.15755972293509451,0.665755774636809,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,3.0,x_lead3,-0.007405375559187183,0.12042227073595889,0.9513358889225563,-0.25240632752508135,0.23759557640670698,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,count_f1,6058,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,-3.0,x_lag3,7.393433951123749,5.263208815042329,0.16944241307951025,-3.3146448967500763,18.101512798997575,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,-2.0,x_lag2,3.6587470662718857,3.9410381523136575,0.3599560915885549,-4.3593553424417255,11.676849474985497,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,-1.0,x_lag1,6.395844547760738,2.5619045990173284,0.017711786345167013,1.1836104504541707,11.608078645067305,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,0.0,x_t,4.5548429146568985,3.9351488652676,0.2553871442501141,-3.4512776494704394,12.560963478784236,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,1.0,x_lead1,-1.6237504512861185,1.4647363276628242,0.27563351532738123,-4.603778916645901,1.3562780140736637,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,2.0,x_lead2,3.67654955789603,1.407642236530248,0.013448510304515882,0.8126798943394409,6.540419221452619,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,3.0,x_lead3,0.2809305260295171,0.9593803478825179,0.7714893701470344,-1.6709434678097335,2.232804519868768,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,lnpen_f1,6058,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,-3.0,x_lag3,0.720520493416398,0.5309324937381615,0.18396450500822015,-0.3596697870068166,1.8007107738396126,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,-2.0,x_lag2,0.3755769794504904,0.3030049474341662,0.22390037468361434,-0.24089122130715346,0.9920451802081343,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,-1.0,x_lag1,0.5811486599630342,0.23212407791816736,0.01741743307191701,0.10888867253220058,1.053408647393868,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,0.0,x_t,0.43066688529645153,0.3542403799790849,0.23270691362354756,-0.29004058674526306,1.151374357338166,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,1.0,x_lead1,-0.18534008206376743,0.15563856106604418,0.24221331395585155,-0.5019891154256373,0.13130895129810247,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,2.0,x_lead2,0.3841547919722023,0.1385114514517148,0.009053778865554252,0.10235112512177719,0.6659584588226275,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,3.0,x_lead3,0.01126167449733691,0.07106277304537414,0.875048346911524,-0.13331662434264727,0.1558399733373211,3.5226328946175376,7.0,7.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k-3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,base,any_f1,6058,2017-2020,,dmg_k3,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,-2.0,x_lag2,-0.03616016308371612,0.336991639978067,0.9151794114219389,-0.7210095731151163,0.6486892469476839,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,-1.0,x_lag1,-0.354965172932973,0.3467548887602065,0.313216264972517,-1.059655891694979,0.3497255458290329,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,0.0,x_t,0.6174598962034769,0.5890789565021785,0.3019506252650124,-0.5796925787026864,1.8146123711096402,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,1.0,x_lead1,-0.23767570003605035,0.38161613221957047,0.5375624016801099,-1.013212989406337,0.5378615893342363,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,2.0,x_lead2,0.32671622209627005,0.12907303686828128,0.01615798284360337,0.06440825161974195,0.5890241925727981,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,expo,1.0230713797281317,0.8865316446172049,0.2565413299478241,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,-3.521962718273358,2.880858674263902,0.22991112381400058,-9.376571941166494,2.332646504619779,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,-2.224703595315333,1.628140060265827,0.18078022787233894,-5.5334822931907794,1.0840751025601132,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,0.0,x_t,2.4500399440452822,2.484562428764689,0.33104734084575416,-2.599198409868852,7.499278297959417,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,0.009054345700119629,2.8249805801687353,0.9974614365688415,-5.731996927276976,5.750105618677216,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,2.8475339269935547,1.1998418397262438,0.02342641333767337,0.40916193616022545,5.285905917826884,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,expo,1.307065045122944,5.780754733488496,0.8224725320319024,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,-2.0,x_lag2,-0.25970186552689734,0.21322084819528292,0.23161118099901823,-0.6930187635438279,0.17361503249003318,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,-1.0,x_lag1,-0.23289178468945934,0.16307050470836643,0.1623661338289082,-0.5642909225147061,0.09850735313578748,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,0.0,x_t,0.24038978496240868,0.21070779389888283,0.2618973327474361,-0.18781997225904543,0.6685995421838627,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,1.0,x_lead1,-0.07283326306601791,0.24963348031270616,0.7722423268061278,-0.5801495327733878,0.434483006641352,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,2.0,x_lead2,0.2694148941436587,0.12322744787459686,0.03577195098896557,0.01898658980327389,0.5198431984840435,2.247306072877567,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,expo,0.25164439387256976,0.5174971736991208,0.6298939970086721,,,,,,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,-2.0,x_lag2,-0.19537537787130357,0.31313042579944095,0.5369549927283317,-0.8324440192570911,0.441693263514484,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,-1.0,x_lag1,-0.33753413343755667,0.33688594138590394,0.32367080432573747,-1.0229337346827994,0.347865467807686,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,0.0,x_t,0.5018807171772246,0.5533896819148846,0.37102368937478314,-0.6239990561292315,1.6277604904836807,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,1.0,x_lead1,-0.20751600149754212,0.352873419913735,0.5604853766160187,-0.9254423723752999,0.5104103693802157,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,2.0,x_lead2,0.26115907836048763,0.10252618728971771,0.01570327865784038,0.05256798193040102,0.46975017479057424,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,-3.632685243968605,2.740661015325708,0.19411636881108585,-9.208602004771794,1.943231516834584,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,-2.138750875354348,1.4957278549082331,0.16214402413558515,-5.1818320769862325,0.9043303262775368,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,0.0,x_t,2.1899417625821878,2.4593404279832556,0.37966572956891254,-2.8136239597853487,7.193507484949724,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,0.07582838774137554,2.5392729238753278,0.9763567923543937,-5.090361220281888,5.242017995764639,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,2.4955298414273885,0.9913262460070279,0.016859429779830792,0.4786614291630644,4.512398253691712,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,-2.0,x_lag2,-0.28231619545582654,0.2039234703151336,0.1755199868344437,-0.697201615320922,0.13256922440926883,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,-1.0,x_lag1,-0.23545204425506328,0.1539874034025635,0.13578593236325287,-0.5487417720920811,0.07783768358195448,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,0.0,x_t,0.21853713403322236,0.21384901025988384,0.3142511059286044,-0.2165419486849118,0.6536162167513565,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,1.0,x_lead1,-0.06450513056358326,0.22718823419702666,0.778239359746288,-0.5267230684379369,0.39771280731077036,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,2.0,x_lead2,0.23451807037392952,0.10419449524905997,0.03118354032503068,0.02253277587970462,0.44650336486815445,2.213297899417435,5.0,5.0,,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+2,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,damage measure,Fire-line loss ratio of the state market,lrshock_fire4,none
+3,current,count_f1,9233,2016-2021,-3.0,x_lag3,-0.09484498867940819,0.17562244678332,0.592682254538897,-0.4517527418677535,0.2620627645089372,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,-2.0,x_lag2,0.08674270402310216,0.14821680331257947,0.5622494029063896,-0.2144700806975117,0.387955488743716,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,-1.0,x_lag1,-0.034089419116196035,0.05791866413510049,0.5600371528448338,-0.15179430629177107,0.083615468059379,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,0.0,x_t,0.1601800944074896,0.08095776852937679,0.05601238786118312,-0.004345886172951174,0.32470607498793036,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,1.0,x_lead1,-0.09075992790636933,0.1228826487980499,0.46522408287025274,-0.34048751621662376,0.15896766040388513,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,2.0,x_lead2,0.10664278236167525,0.044167599053677294,0.021286412019144718,0.016883421695093104,0.1964021430282574,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,3.0,x_lead3,0.05474302549229976,0.1055482673534975,0.6073615203132545,-0.15975686130484415,0.26924291228944364,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,expo,0.22162891055371065,0.6998098762202901,0.7534085988253432,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,count_f1,9233,2016-2021,,x_risk,1.1103331569745836,1.6339053459675354,0.5013851816417523,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,-3.0,x_lag3,-0.5372734599370089,1.2668576651029788,0.6741647690427375,-3.1118379939296026,2.037291074055585,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,-2.0,x_lag2,0.7602881816930419,0.6867963212771301,0.2760617986802518,-0.6354498712420135,2.156026234628097,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,-1.0,x_lag1,-1.055505035165542,0.5841394972099653,0.07962835836948678,-2.2426193210461065,0.13160925071502283,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,0.0,x_t,1.5320950924392533,0.5789484323384823,0.012236360759835918,0.355530319641272,2.7086598652372347,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,1.0,x_lead1,-0.38301201691958847,0.9474737183214021,0.6885638919195429,-2.3085102787011005,1.5424862448619236,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,2.0,x_lead2,1.3607948010526107,0.31118539595247624,0.00010987036320697641,0.7283899887483307,1.9931996133568908,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,3.0,x_lead3,-0.0907602163180632,0.29075279518500163,0.7568284103073781,-0.681640987901562,0.5001205552654356,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,expo,0.6061199544606883,8.052559056030342,0.9404406603980195,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,lnpen_f1,9233,2016-2021,,x_risk,0.2648105286744212,11.48904647378791,0.9817459658383239,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,-3.0,x_lag3,-0.06263126003290075,0.12869123765822355,0.629608839016365,-0.32416332116112717,0.19890080109532565,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,-2.0,x_lag2,0.05993377160783119,0.07138563166254369,0.4070102396934703,-0.0851392863825503,0.2050068295982127,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,-1.0,x_lag1,-0.08362539296671623,0.03996383264711776,0.04392882089806616,-0.1648416724351135,-0.002409113498318974,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,0.0,x_t,0.13223298680746542,0.053338388346079554,0.018288595810729502,0.023836339955289054,0.2406296336596418,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,1.0,x_lead1,-0.03246494477977328,0.08954789968340514,0.7191904412535228,-0.21444817223230722,0.14951828267276068,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,2.0,x_lead2,0.09993188191190387,0.021369436854568092,4.495902789014572e-05,0.05650396119699617,0.14335980262681158,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,3.0,x_lead3,-0.024547994176098948,0.02419476994917505,0.3174629984852282,-0.07371768255951527,0.02462169420731738,3.3638291219985077,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,expo,0.32315051758129043,0.7419740601289636,0.6659317347562896,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,current,any_f1,9233,2016-2021,,x_risk,-0.2712266547055305,0.9774093712420344,0.7830800576963473,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+3,base,count_f1,9120,2016-2021,-3.0,x_lag3,-0.10276834532648713,0.14995026960469668,0.49790980911114024,-0.40784446269389507,0.2023077720409208,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,-2.0,x_lag2,0.06977067141676717,0.13334738667126267,0.6043136900524742,-0.20152662664080873,0.3410679694743431,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,-1.0,x_lag1,-0.04522980694961176,0.054904172204054795,0.4159701045957902,-0.156933185192554,0.06647357129333048,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,0.0,x_t,0.1517815657081259,0.08181873020177394,0.07253483727384258,-0.014679892505263359,0.31824302392151516,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,1.0,x_lead1,-0.0766801909994967,0.11332189856542181,0.5033385733267228,-0.3072353271668496,0.15387494516785621,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,2.0,x_lead2,0.08735798460533252,0.04821396889060179,0.07911357080151737,-0.010734072653343321,0.18545004186400837,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,3.0,x_lead3,0.0108470683809808,0.10029117356879953,0.914527078337914,-0.19319685844388862,0.2148909952058502,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,count_f1,9120,2016-2021,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,-3.0,x_lag3,-0.3932001662790666,0.9496660724107993,0.6815233249746244,-2.325310318067469,1.5389099855093353,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,-2.0,x_lag2,0.7948354486513742,0.6173942947248555,0.20691006951834479,-0.46126268852428964,2.050933585827038,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,-1.0,x_lag1,-1.068639535278073,0.6008360644473861,0.08452214590445695,-2.2910496996555367,0.15377062909939054,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,0.0,x_t,1.3925619914930132,0.5969931836377573,0.025914224308965395,0.17797022690901376,2.607153756077013,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,1.0,x_lead1,-0.2632740143670863,0.8971881891163436,0.7710207870122772,-2.088617109815157,1.5620690810809847,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,2.0,x_lead2,1.2455436646936064,0.24602333281142688,1.5334563655322597e-05,0.7450054305592887,1.7460818988279243,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,3.0,x_lead3,-0.15742460892304314,0.29984651314305394,0.6030809091728191,-0.7674669267994304,0.4526177089533442,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,lnpen_f1,9120,2016-2021,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,-3.0,x_lag3,-0.04294775186022116,0.09790925489831616,0.6637747234801779,-0.24214562871271195,0.15625012499226965,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,-2.0,x_lag2,0.07471884529888705,0.05926537639048835,0.21624010228535506,-0.04585746957665436,0.19529516017442844,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,-1.0,x_lag1,-0.07976011541027374,0.0414045145548518,0.06270859826318786,-0.16399823365558353,0.004478002835036035,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,0.0,x_t,0.12113408691615471,0.052969312928772536,0.028751053782243297,0.013367209467185975,0.22890096436512344,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,1.0,x_lead1,-0.016743468516193905,0.08656941430673565,0.8478227295304857,-0.1928702662144772,0.1593833291820894,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,2.0,x_lead2,0.09092443208631686,0.02373013039271893,0.0005412215208320248,0.04264511879186272,0.139203745380771,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,3.0,x_lead3,-0.022988087025853286,0.02847615410111356,0.4252886909326863,-0.08092325815709353,0.034947084105386966,3.3880274388724674,7.0,7.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k-3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,dmg_k3,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+3,base,any_f1,9120,2016-2021,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,current,count_f1,12518,2015-2022,-2.0,x_lag2,0.017142693481001774,0.12621509722539798,0.8927192370789099,-0.2388333880349921,0.27311877499699566,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,-1.0,x_lag1,-0.11777943802117595,0.06684418455198113,0.08655976151733036,-0.25334572771147895,0.017786851669127066,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,0.0,x_t,0.15957001561065762,0.053663601257145074,0.005226384931687589,0.05073518783003475,0.26840484339128046,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,1.0,x_lead1,0.018351877095452555,0.07444402415961542,0.806680695570358,-0.13262760171150717,0.16933135590241227,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,2.0,x_lead2,0.2380213308297568,0.09961183300592749,0.022232375828487694,0.03599916988376883,0.44004349177574476,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,expo,0.617468337821607,0.8995963851541299,0.49686856755857844,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,count_f1,12518,2015-2022,,x_risk,1.4106264295161535,1.4028795816518036,0.32135661769587087,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,-2.0,x_lag2,0.6623878087820945,0.3737229366312511,0.08479081390112486,-0.09555743702854291,1.420333054592732,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,-1.0,x_lag1,-1.5143455178205258,0.5930888435960397,0.015051345403014116,-2.7171854435660867,-0.3115055920749652,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,0.0,x_t,1.3318420894609238,0.40869040489056807,0.002445841278882588,0.5029795310440914,2.160704647877756,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,1.0,x_lead1,0.35405732119301975,0.5575109201805593,0.5294001362825045,-0.776627231506263,1.4847418738923026,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,2.0,x_lead2,1.5166641809932566,0.39501510640759835,0.00048024923622924653,0.7155364133913522,2.3177919485951612,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,expo,-0.8483501914676643,7.327618755906746,0.9084747979275685,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,lnpen_f1,12518,2015-2022,,x_risk,4.387925485940525,6.920529107330535,0.5300600702836609,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,-2.0,x_lag2,0.06014582833577573,0.038218108454291154,0.12429332073872001,-0.017364088149192387,0.13765574482074386,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,-1.0,x_lag1,-0.12856586002285034,0.0469659724853887,0.009560853537002867,-0.22381726707068006,-0.03331445297502063,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,0.0,x_t,0.12431961125263262,0.04237837988718934,0.005798428443584136,0.03837227323215335,0.2102669492731119,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,1.0,x_lead1,0.039940872326634846,0.05063534837655999,0.43539633927988275,-0.06275237395342165,0.14263411860669134,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,2.0,x_lead2,0.12000774917111212,0.025107879387173678,2.939939763790811e-05,0.06908660960864449,0.17092888873357975,2.9429098571091323,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,expo,0.08044612756552263,0.621303876944431,0.8976989703097906,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,current,any_f1,12518,2015-2022,,x_risk,0.19114381460795324,0.5827951505813211,0.7448284747620613,,,,,,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk
+2,base,count_f1,12195,2015-2022,-2.0,x_lag2,0.012672959485399414,0.11574317365191807,0.9134753413365273,-0.22280829788476308,0.24815421685556194,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,-1.0,x_lag1,-0.10872964769126979,0.060900233504961106,0.08339508678290852,-0.2326321043753499,0.015172808992810316,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,0.0,x_t,0.13874077938031162,0.05476519099101777,0.01623051493079508,0.02732016054135128,0.25016139821927197,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,1.0,x_lead1,0.02854685309799703,0.06286246450557476,0.6527181219435636,-0.09934779257396087,0.15644149876995495,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,2.0,x_lead2,0.21738756306996773,0.09806864446641167,0.033648007448314754,0.017865405702932796,0.4169097204370027,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,count_f1,12195,2015-2022,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,-2.0,x_lag2,0.5865837298864073,0.339951751059581,0.09379344733402895,-0.10505330803899948,1.278220767811814,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,-1.0,x_lag1,-1.5235877507219149,0.52523839734321,0.006579063952518727,-2.592193304924449,-0.4549821965193803,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,0.0,x_t,1.1558743959669326,0.3851687353255725,0.005094579158092527,0.3722427118478401,1.939506080086025,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,1.0,x_lead1,0.39665350210593375,0.5392079805946663,0.4671571189885584,-0.700373382920681,1.4936803871325486,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,2.0,x_lead2,1.4814348990705772,0.34023596323613875,0.00012188454577377605,0.7892196271242423,2.173650171016912,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,lnpen_f1,12195,2015-2022,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,-2.0,x_lag2,0.05795623910512503,0.03411954459255931,0.09880121211984205,-0.011460496310441735,0.1273729745206918,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,-1.0,x_lag1,-0.1285719765238673,0.04042655948190271,0.0031940064969917525,-0.21082043021304397,-0.046323522834690614,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,0.0,x_t,0.10882825761612262,0.03920801716153629,0.009004190626812347,0.029058946918320852,0.18859756831392438,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,1.0,x_lead1,0.04500093709915152,0.049315170668740735,0.36811520365621875,-0.05533153202272643,0.14533340622102947,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,2.0,x_lead2,0.11649119328421707,0.02247899141442814,1.0778084148288514e-05,0.07075734138033068,0.16222504518810346,2.934622218246107,5.0,5.0,,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,expo,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,dmg_k-2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,dmg_k-1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,dmg_k0,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,dmg_k1,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,dmg_k2,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base
+2,base,any_f1,12195,2015-2022,,x_risk_base,,,,,,,,,1.0,long-run risk,Exposure × the state's average damage,lndmg_fire,x_risk_base

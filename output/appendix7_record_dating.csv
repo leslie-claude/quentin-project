@@ -1,0 +1,8 @@
+item,value,share,note
+"Wildfire records, 2013-2024",3901.0,False,
+Records carrying damage,840.0,False,
+Records whose end year differs from the begin year,0.0,False,a record dated to the wrong year would have to be one of these
+"Share of the damage, fires beginning January to June",0.045470029266234384,True,353 records carry damage
+"Share of the damage, fires beginning July to October",0.3231268415386192,True,412 records carry damage
+"Share of the damage, fires beginning November and December",0.6314031291951464,True,75 records carry damage
+"Share of the damage, the two largest records",0.7454290696947542,True,California 08-NOV-18; Hawaii 08-AUG-23
