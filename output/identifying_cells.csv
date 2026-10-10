@@ -1,0 +1,15 @@
+table,moderator,sample_rows,with_violation,identifying_cells,arm_0,arm_1,smaller_arm
+6,low_state,14050,509,215,132,83,83
+6,low_is,14050,509,213,82,131,82
+7,tight_reg_free,14050,509,215,146,69,69
+7,tight_reg_free_rc,14050,509,215,146,69,69
+7,tight_reg_rate,14050,509,215,137,78,78
+7,tight_home,14050,509,215,153,62,62
+8,fewins_fire4_first,14050,509,215,129,86,86
+8,hitop3_fire4_first,14050,509,215,122,93,93
+8,hitop5_fire4_first,14050,509,215,118,97,97
+8,fewins_fire4_l1,14050,509,215,129,86,86
+8,hitop3_fire4_l1,14050,509,215,127,88,88
+8,hitop5_fire4_l1,14050,509,215,122,93,93
+A3,fewins_fire4_t,14050,509,215,129,86,86
+A3,hitop3_fire4_t,14050,509,215,134,81,81

@@ -1,0 +1,6 @@
+measure,median,ties_at_median,n_tight,n_tight_if_ties_included
+reg_free,8.0,2,24,26
+reg_free_rc,9.0,5,23,28
+reg_rate,10.0,7,22,29
+home,2.0,21,16,37
+comm,3.0,15,22,37
