@@ -15,7 +15,10 @@
       "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/2_code/analysis.py",
-      "args": ["--draws", "100"],
+      "args": [
+        "--draws",
+        "100"
+      ],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "justMyCode": true
@@ -25,7 +28,10 @@
       "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/2_code/analysis.py",
-      "args": ["--draws", "0"],
+      "args": [
+        "--draws",
+        "0"
+      ],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "justMyCode": true
@@ -35,6 +41,15 @@
       "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/3_docs/build_docs.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "check_reproduction.py  compare output/ with HEAD",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/2_code/check_reproduction.py",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "justMyCode": true
