@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "analysis.py  full run (1000 draws)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/2_code/analysis.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "analysis.py  quick (100 draws)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/2_code/analysis.py",
+      "args": ["--draws", "100"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "analysis.py  tables only, reuse output/figure1_*",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/2_code/analysis.py",
+      "args": ["--draws", "0"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "build_docs.py  rebuild the reply in 3_docs",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3_docs/build_docs.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

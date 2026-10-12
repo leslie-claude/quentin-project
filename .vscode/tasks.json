@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1_data: build insurer_line_state_year.zip",
+      "detail": "Rebuilds the csv from parts/ if it is missing, then writes the single-member zip that analysis.py reads.",
+      "type": "shell",
+      "command": "test -f insurer_line_state_year.csv || (cd parts && for p in 1-200000 20-400000 40-600000 60-800000 80-1000000 100000.csv; do unzip -p \"$p.zip\" \"$p\"; done > ../insurer_line_state_year.csv) && zip -1 insurer_line_state_year.zip insurer_line_state_year.csv && unzip -l insurer_line_state_year.zip",
+      "options": { "cwd": "${workspaceFolder}/1_data" },
+      "problemMatcher": []
+    },
+    {
+      "label": "venv: install requirements",
+      "detail": "Creates .venv with python3.12 and installs the pinned packages.",
+      "type": "shell",
+      "command": "python3.12 -m venv .venv && ./.venv/bin/python -m pip install --upgrade pip && ./.venv/bin/python -m pip install -r requirements.txt",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}

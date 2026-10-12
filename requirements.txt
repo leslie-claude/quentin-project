@@ -1,0 +1,14 @@
+# Needs Python 3.12 or newer: numpy and scipy below do not build or ship wheels for 3.11.
+#
+#     python3.12 -m venv .venv
+#     source .venv/bin/activate
+#     python -m pip install -r requirements.txt
+#
+# The versions are those named in the docstring of 2_code/analysis.py; matplotlib is
+# unpinned there, and 3.11.2 is the version the output in output/ was reproduced with.
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+pyfixest==0.60.0
+openpyxl==3.1.5
+matplotlib==3.11.2
